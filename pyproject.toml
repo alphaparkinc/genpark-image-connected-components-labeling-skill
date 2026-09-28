@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-image-connected-components-labeling-skill"
+version = "1.0.0"
+description = "Two-pass connected-component labeling (CCL) with disjoint-set Union-Find for binary mask segment extraction."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Image Processing"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-image-connected-components-labeling-skill"
+Repository = "https://github.com/alphaparkinc/genpark-image-connected-components-labeling-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-image-connected-components-labeling-skill/issues"
