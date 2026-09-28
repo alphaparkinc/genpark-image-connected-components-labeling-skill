@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-image-connected-components-labeling-skill",
+  "version": "1.0.0",
+  "description": "Two-pass connected-component labeling (CCL) with disjoint-set Union-Find for binary mask segment extraction.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
